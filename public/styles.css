@@ -1,0 +1,43 @@
+#selector {
+background-color: #ababab;/*default*/
+transition: background-color 3s ease; /* future-proof */
+-webkit-transition: background-color 3s ease;
+-moz-transition: background-color 3s ease;
+-o-transition: background-color 3s ease;
+-ms-transition: background-color 3s ease;/* IE10+ only */
+}
+
+
+.pics {
+  margin:auto;
+  background-color: transparent;
+  height:300px;
+  width: 1000px;
+  padding: 0px;
+  opacity: 4;
+}
+
+.assign {
+  padding:0px;
+  position: relative;
+  text-align: center;
+  margin:auto;
+  float: right;
+  overflow: hidden;
+  height:600px;
+  width: 120px;
+  background-color:#336666;
+  transition: width 550ms ease-out;
+}
+
+.assign:hover {
+  position:relative;
+  margin:auto;
+  width:800px;
+  height: 600px;
+}
+
+.text {
+	font-family: verdana;
+	font-size: 12px;
+}

@@ -1,19 +1,4 @@
-jQuery(document).ready(function(){
-
-function randomColor(){
- r = Math.floor(Math.random() * (256));
- g = Math.floor(Math.random() * (256));
- b = Math.floor(Math.random() * (256));
- jQuery('body').css('background-color','rgb('+r+','+g+','+b+')');
-
-};
-
-
- randomColor();
- var t = setInterval(randomColor,3000);
-});
-
-setInterval(randomRgb, 500);
+   setInterval(randomRgb, 700);
 
         function randomRgb() {
             // create the rgb string

@@ -23,7 +23,7 @@ setInterval(randomRgb, 500);
             + randomColor(255) + ")";
 
             //change the text color with the new random color
-            document.getElementById("divone").style.color = col;
+            document.getElementById("random").style.color = col;
         }
 
 

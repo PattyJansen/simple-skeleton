@@ -37,7 +37,3 @@ transition: background-color 3s ease; /* future-proof */
   height: 600px;
 }
 
-.text {
-	font-family: verdana;
-	font-size: 12px;
-}

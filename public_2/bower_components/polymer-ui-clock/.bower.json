@@ -1,0 +1,19 @@
+{
+  "name": "polymer-ui-clock",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#0.2.2"
+  },
+  "version": "0.2.2",
+  "homepage": "https://github.com/Polymer/polymer-ui-clock",
+  "_release": "0.2.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.2",
+    "commit": "8641af1cde0875a82a0b8d53e52b25033f8c6f6a"
+  },
+  "_source": "git://github.com/Polymer/polymer-ui-clock.git",
+  "_target": "~0.2.2",
+  "_originalSource": "Polymer/polymer-ui-clock",
+  "_direct": true
+}

@@ -1,0 +1,50 @@
+
+
+<link rel="import"
+      href="../polymer.html">
+
+<polymer-element name="fav-color">
+  <template>
+    This is <b>{{owner}}</b>'s fav-color element. 
+    {{owner}} likes the color 
+    <span style="color: {{color}}">{{color}}</span>.
+  </template>
+  <script>
+    Polymer('fav-color', {
+      owner: "Daniel",
+      color: "red"
+    });
+  </script>
+</polymer-element>
+
+<link rel="import"
+      href="../polymer.html">
+
+<polymer-element name="another-element">
+  <template>
+    <style>
+    :host {
+        display: inline-block;
+        background: #FF0066;
+        color: white;
+      };
+    </style>
+    This box will grow while typing! <span style="text: {{text}}">{{text}}</span>
+    <label for="nameInput"></label>
+    <br><input id="nameInput" value="{{text}}"
+           placeholder="Enter name..."></p></br>
+  </template>
+  <script>
+    Polymer('another-element', {
+      text: "start typing",
+      nameChanged: function() {
+        if (this.text) {
+          // Insure name is capitalized
+          this.text = this.text[0].toUpperCase() +
+                      this.text.slice(1);
+        }
+      }
+    });
+</script>
+</polymer-element>
+

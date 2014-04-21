@@ -1,15 +1,17 @@
-<link rel="import" href="../polymer.html">
+<link rel="import" href="../polymer/polymer.html">
 
 <polymer-element name="my-element">
   <template>
     <link rel="stylesheet" href="./my-element.css">
     <div id="widget-title" align="center">{{ dateStr }}</div>
+    <div align="center">
     <div id="clock">
       <div id="second" style="-webkit-transform: translate3d({{xSecond}}px,{{ySecond}}px,0) rotate({{rotateSecond}}deg);"></div>
       <div id="minute" style="-webkit-transform: translate3d({{xMinute}}px,{{yMinute}}px,0) rotate({{rotateMinute}}deg);"></div>
-      <div id="hour" style="-webkit-transform: translate3d({{xHour}}px,{{yHour}}px,0) rotate({{rotateHour}}deg);"></div>
+      <div id="hour" style="-webkit-transform: translate3d({{xHour}}px,{{yHour}}px,0) rotate({{rotateHour}}deg);"></div></div>
       <!-- <div id="dot"></div> -->
     <div id="time">{{ time }}</div>
+
   </template>
    <script>
     (function() {

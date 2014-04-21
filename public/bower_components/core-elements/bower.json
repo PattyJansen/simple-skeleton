@@ -1,0 +1,23 @@
+{
+  "name": "core-elements",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#0.2.2",
+    "core-layout-trbl": "Polymer/core-layout-trbl#0.2.2",
+    "core-ajax": "Polymer/core-ajax#0.2.2",
+    "core-docs": "Polymer/core-docs#0.2.2",
+    "core-firebase": "Polymer/core-firebase#0.2.2",
+    "core-icon": "Polymer/core-icon#0.2.2",
+    "core-iconset": "Polymer/core-iconset#0.2.2",
+    "core-layout": "Polymer/core-layout#0.2.2",
+    "core-media-query": "Polymer/core-media-query#0.2.2",
+    "core-meta": "Polymer/core-meta#0.2.2",
+    "core-range": "Polymer/core-range#0.2.2",
+    "core-selection": "Polymer/core-selection#0.2.2",
+    "core-selector": "Polymer/core-selector#0.2.2",
+    "core-tests": "Polymer/core-tests#0.2.2",
+    "core-theme-aware": "Polymer/core-theme-aware#0.2.2",
+    "core-action-icons": "Polymer/core-action-icons#0.2.2"
+  },
+  "version": "0.2.2"
+}
